@@ -1,3 +1,210 @@
+
 body {
     background: rgba(0, 0, 0, 0.9);
+    margin-top: 4%;
+    /* background: rgba(223, 217, 217, 0.3); */
+}
+
+#div-menu-bar-mobile {
+    display: none;
+}
+
+#span-inicio {
+    color: white;
+    top: 4%;
+    left: 62.3%;
+    transform: translate(-50%, -50%);
+    color: white;
+    position: absolute;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+#span-sobre {
+    color: white;
+    top: 4%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+    color: white;
+    position: absolute;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+#span-conhecimentos {
+    color: white;
+    top: 4%;
+    left: 74.4%;
+    transform: translate(-50%, -50%);
+    color: white;
+    position: absolute;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+#span-projetos {
+    color: white;
+    top: 4%;
+    left: 82.4%;
+    transform: translate(-50%, -50%);
+    color: white;
+    position: absolute;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+#span-contato {
+    color: white;
+    top: 4%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    color: white;
+    position: absolute;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+#span-inicio:hover,
+#span-sobre:hover,
+#span-conhecimentos:hover,
+#span-projetos:hover,
+#span-contato:hover {
+    color: rgb(24, 158, 158);
+}
+
+#span-inicio:focus,
+#span-sobre:focus,
+#span-conhecimentos:focus,
+#span-projetos:focus,
+#span-contato:focus {
+    border: 1px solid white;
+    padding: 7px;
+}
+
+#span-lm {
+    /* top: 1%; */
+    left: 10%;
+    font-size: 27px;
+    cursor: default;
+    color: white;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 6%;
+}
+#span-lm:hover {
+    color: rgb(24, 158, 158);
+}
+#span-lm:focus {
+    border: 1px solid white;
+    padding: 7px;
+}
+
+#h1-oi-meu-nome-e {
+    color: white;
+    top: 30%;
+    position: absolute;
+    left: 13%;
+    font-size: 25px;
+    white-space: nowrap;
+}
+
+#span-meu-nome {
+    /* width: 14ch;
+    white-space: nowrap;
+    overflow: hidden; */
+    animation: comecandoTexto 1s steps(14);
+    color: white;
+    position: absolute;
+    top: 38.3%;
+    left: 13%;
+    font-size: 50px;
+}
+
+#span-front-end-dev {
+    color: white;
+    position: absolute;
+    top: 48.5%;
+    left: 13%;
+    font-size: 25px;
+}
+
+#span-test {
+    color: white;
+    top: 55%;
+    left: 13%;
+    position: absolute;
+    background: rgb(133, 133, 233);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 110px;
+}
+#span-test:hover {
+    background: rgb(118, 118, 221);
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    #div-menu-bar {
+        display: none;
+    }
+
+    #div-menu-bar-mobile {
+        /* display: flex; */
+    }
+
+    #span-lm {
+        left: 23.3%;
+    }
+
+    #h1-oi-meu-nome-e {
+        white-space: nowrap;
+        font-size: 22px;
+        left: 9%;
+    }
+
+    #span-meu-nome {
+        white-space: nowrap;
+        left: 9%;
+        font-size: 44px;
+    }
+
+    #span-front-end-dev {
+        white-space: nowrap;
+        left: 9%;
+        font-size: 22px;
+    }
+
+    #span-test {
+        left: 9%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Estilos para dispositivos com largura mínima de 768px e largura máxima de 991px */
+}
+
+@media only screen and (min-width: 992px) {
+    /* Estilos para dispositivos com largura mínima de 992px */
+}  
+  
+
+@keyframes comecandoTexto {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes mostrandoTexto {
+    50% {
+        border-color: transparent;
+    }
 }
