@@ -1,9 +1,31 @@
+* {
+    /* margin: 0; */
+}
 
 body {
     background: rgba(0, 0, 0, 0.9);
+    
     margin-top: 4%;
+    height: 4000px;
     /* background: rgba(223, 217, 217, 0.3); */
 }
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: grey;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+  
 
 #div-menu-bar-mobile {
     display: none;
@@ -133,7 +155,7 @@ body {
     font-size: 25px;
 }
 
-#span-test {
+#span-github {
     color: white;
     top: 55%;
     left: 13%;
@@ -145,8 +167,30 @@ body {
     cursor: pointer;
     width: 110px;
 }
-#span-test:hover {
-    background: rgb(118, 118, 221);
+
+
+#span-linkedin {
+    color: white;
+    top: 55%;
+    left: 25%;
+    position: absolute;
+    background: rgb(133, 133, 233);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 110px;
+}
+
+#span-github:hover,
+#span-linkedin:hover {
+    /* background: ; */
+}
+
+#span-github:focus,
+#span-linkedin:focus {
+    border: 1px solid white;
+    padding: 10px;
 }
 
 
@@ -182,18 +226,26 @@ body {
         font-size: 22px;
     }
 
-    #span-test {
+    #span-github {
         left: 9%;
+    }
+
+    #span-linkedin {
+        left: 38%;
+    }
+
+    ::-webkit-scrollbar {
+        width: 5px;
     }
 
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    /* Estilos para dispositivos com largura mínima de 768px e largura máxima de 991px */
+    
 }
 
 @media only screen and (min-width: 992px) {
-    /* Estilos para dispositivos com largura mínima de 992px */
+    
 }  
   
 
