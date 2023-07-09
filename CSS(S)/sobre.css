@@ -1,0 +1,45 @@
+#div-sobre {
+
+}
+
+#div-sobre-txt {
+
+}
+
+
+#bt-local {
+    background: rgb(133, 133, 233);
+    text-align: center;
+    padding: 7px;
+    border-radius: 2px;
+    top: 83.3%;
+    position: absolute;
+    left: 47%;
+    color: white;
+}
+
+#bt-local:hover {
+
+}
+#bt-local:focus {
+    border: 1px solid white;
+    padding: 7px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+    #bt-local {
+
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+
+}  
