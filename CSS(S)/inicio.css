@@ -280,6 +280,16 @@ body {
         margin-top: 19%;
     }
 
+    #span-close {
+        color: red;
+        font-size: 40px;
+        float: right;
+        margin-right: 5%;
+        margin-top: 1.2%;
+        user-select: none;
+        cursor: pointer;
+    }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -300,5 +310,19 @@ body {
 @keyframes mostrandoTexto {
     50% {
         border-color: transparent;
+    }
+}
+
+@keyframes abrindoMenuMobile {
+    0% {
+
+    }
+
+    50% {
+
+    }
+
+    100% {
+
     }
 }
