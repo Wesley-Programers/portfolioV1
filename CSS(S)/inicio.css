@@ -24,6 +24,8 @@ body {
 
 ::-webkit-scrollbar {
     width: 8px;
+    height: 3px;
+    border-radius: 7px;
 }
 
 ::-webkit-scrollbar-track {
@@ -247,6 +249,7 @@ body {
 
     ::-webkit-scrollbar {
         width: 5px;
+        height: 5px;
     }
 
     #span-inicio-mobile,
