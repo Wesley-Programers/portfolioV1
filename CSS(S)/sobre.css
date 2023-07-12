@@ -3,7 +3,12 @@
 }
 
 #div-sobre-txt {
-
+    border: 1px solid red;
+    position: absolute;
+    height: 56.1%;
+    width: 68.1%;
+    top: 98.1%;
+    left: 17%;
 }
 
 
@@ -30,7 +35,17 @@
 
 @media only screen and (max-width: 767px) {
 
+    #div-sobre-txt {
+        width: 99%;
+        left: 0%;
+        height: 66%;
+    }
+
     #bt-local {
+        left: 42.1%;
+    }
+
+    #span-sobre-mim {
 
     }
 
