@@ -8,7 +8,6 @@ let linkGithubMobile = document.querySelector('span-github-mobile');
 let btMenuMobi = document.getElementById('menu-bar-mobile');
 let menuMobile = document.getElementById('div-menu-bar-mobile-pos');
 let fecharMenu = document.querySelector('#span-close');
-var menuOpen = false;
 
 let bodyPRINC = document.getElementById('div-principal');
 
