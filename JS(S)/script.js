@@ -25,7 +25,6 @@ btMenuMobi.addEventListener('click', function() {
 
 fecharMenu.addEventListener('click', function() {
     menuMobile.style.display = 'none';
-    menuOpen = false;
     body.style.height = '4000px';
     body.style.background = 'rgba(0, 0, 0, 0.9)';
     bodyPRINC.style.display = 'block';
