@@ -3,12 +3,14 @@
 }
 
 #div-sobre-txt {
-    border: 1px solid red;
+    background: rgba(0, 0, 0, 0.2);
     position: absolute;
-    height: 56.1%;
-    width: 68.1%;
-    top: 98.1%;
-    left: 17%;
+    height: 59.1%;
+    width: 72.4%;
+    top: 114%;
+    left: 15%;
+    border-radius: 10px;
+    /* border: 1px solid red; */
 }
 
 
@@ -17,7 +19,7 @@
     text-align: center;
     padding: 7px;
     border-radius: 2px;
-    top: 83.3%;
+    top: 98%;
     position: absolute;
     left: 47%;
     color: white;
@@ -29,6 +31,20 @@
 #bt-local:focus {
     border: 1px solid white;
     padding: 7px;
+}
+
+#span-sobre-mim {
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 42.9%;
+    left: 8%;
+}
+
+#span-sobre-txt {
+    color: white;
+    position: absolute;
+    left: 41%;
 }
 
 
@@ -51,14 +67,10 @@
 
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) 
-    #div-sobre-txt {
-    
-    }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
 }
 
 @media only screen and (min-width: 992px) {
-   #div-sobre-txt {
-       
-   }
-}  
+
+}
