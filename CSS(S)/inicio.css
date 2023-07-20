@@ -48,11 +48,11 @@ body {
 #span-inicio {
     color: white;
     top: 4%;
-    left: 62.3%;
+    left: 53.6%;
     transform: translate(-50%, -50%);
     color: white;
     position: absolute;
-    font-size: 18px;
+    font-size: 19px;
     cursor: pointer;
     margin-top: 7px;
 }
@@ -60,49 +60,53 @@ body {
 #span-sobre {
     color: white;
     top: 4%;
-    left: 67%;
+    left: 59%;
     transform: translate(-50%, -50%);
     color: white;
     position: absolute;
-    font-size: 18px;
+    font-size: 19px;
     cursor: pointer;
     margin-top: 7px;
+    
 }
 
 #span-conhecimentos {
     color: white;
     top: 4%;
-    left: 74.4%;
+    left: 67.6%;
     transform: translate(-50%, -50%);
     color: white;
     position: absolute;
-    font-size: 18px;
+    font-size: 19px;
     cursor: pointer;
     margin-top: 7px;
+    
 }
 
 #span-projetos {
     color: white;
     top: 4%;
-    left: 82.4%;
+    left: 77%;
     transform: translate(-50%, -50%);
     color: white;
     position: absolute;
     font-size: 18px;
     cursor: pointer;
     margin-top: 7px;
+    
 }
 
 #span-contato {
     color: white;
     top: 4%;
-    left: 88%;
+    left: 84%;
     transform: translate(-50%, -50%);
     color: white;
     position: absolute;
     font-size: 18px;
     cursor: pointer;
     margin-top: 7px;
+    
 }
 
 #span-inicio:hover,
@@ -110,7 +114,7 @@ body {
 #span-conhecimentos:hover,
 #span-projetos:hover,
 #span-contato:hover {
-    color: rgb(24, 158, 158);
+    color: rgb(0, 119, 255);
 }
 
 #span-inicio:focus,
@@ -120,6 +124,29 @@ body {
 #span-contato:focus {
     border: 1px solid white;
     padding: 7px;
+}
+
+#span-inicio::after,
+#span-sobre::after,
+#span-conhecimentos::after,
+#span-projetos::after,
+#span-contato::after {
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background: rgb(0, 89, 255);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+#span-inicio:hover::after,
+#span-sobre:hover::after,
+#span-conhecimentos:hover::after,
+#span-projetos:hover::after,
+#span-contato:hover::after {
+    width: 100%;
 }
 
 #span-lm {
