@@ -22,7 +22,8 @@
     top: 98%;
     position: absolute;
     left: 47%;
-    color: white;
+    color: #898989;
+    border-radius: 4px;
 }
 
 #bt-local:hover {
