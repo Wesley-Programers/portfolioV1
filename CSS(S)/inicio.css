@@ -167,8 +167,8 @@ body {
 }
 
 #h1-oi-meu-nome-e {
-    color: white;
-    top: 30%;
+    color: rgb(226, 220, 220);
+    top: 25.6%;
     position: absolute;
     left: 13%;
     font-size: 25px;
@@ -180,55 +180,48 @@ body {
     white-space: nowrap;
     overflow: hidden; */
     animation: comecandoTexto 1s steps(14);
-    color: white;
+    color: rgb(226, 220, 220);
     position: absolute;
-    top: 38.3%;
+    top: 34.3%;
     left: 13%;
     font-size: 50px;
 }
 
 #span-front-end-dev {
-    color: white;
+    color: rgb(226, 220, 220);
     position: absolute;
-    top: 48.5%;
+    top: 44.8%;
     left: 13%;
     font-size: 25px;
 }
 
 #span-github {
-    color: white;
-    top: 55%;
+    color: rgb(226, 220, 220);
+    top: 52%;
     left: 13%;
     position: absolute;
-    background: rgb(133, 133, 233);
     text-align: center;
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
-    width: 110px;
+    width: 12%;
+    border: 2px solid #F64348;
+    transition: .6s ease-in-out;
+}
+#span-github:hover {
+    background: linear-gradient(to right, #F64348, #898989);
+    box-shadow: 0 0  5px #F64348,
+    0 0 25px #F64348, 0 0 50px #F64348,
+    0 0 100px #F64348;
+}
+#span-github::before {
+    width: 0;
+}
+#span-github:hover::before {
+    width: 100%;
 }
 
-
-#span-linkedin {
-    color: white;
-    top: 55%;
-    left: 25%;
-    position: absolute;
-    background: rgb(133, 133, 233);
-    text-align: center;
-    padding: 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    width: 110px;
-}
-
-#span-github:hover,
-#span-linkedin:hover {
-    /* background: ; */
-}
-
-#span-github:focus,
-#span-linkedin:focus {
+#span-github:focus {
     border: 1px solid white;
     padding: 10px;
 }
@@ -268,10 +261,7 @@ body {
 
     #span-github {
         left: 9%;
-    }
-
-    #span-linkedin {
-        left: 38%;
+        width: 19%;
     }
 
     ::-webkit-scrollbar {
@@ -315,7 +305,7 @@ body {
         font-size: 40px;
         float: right;
         margin-right: 5%;
-        margin-top: 1.2%;
+        margin-top: 4%;
         user-select: none;
         cursor: pointer;
     }
