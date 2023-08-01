@@ -15,14 +15,14 @@
 
 
 #bt-local {
-    background: rgb(133, 133, 233);
+    background: linear-gradient(to right, rgb(192, 174, 174), rgb(167, 28, 28));
     text-align: center;
     padding: 7px;
-    border-radius: 2px;
-    top: 98%;
+    border-radius: 5px;
+    top: 100%;
     position: absolute;
     left: 47%;
-    color: #898989;
+    color: #ece6e6;
     border-radius: 4px;
 }
 
@@ -38,20 +38,14 @@
     color: white;
     font-size: 35px;
     position: absolute;
-    top: 42.9%;
-    left: 8%;
+    top: 16%;
+    left: 6%;
 }
 
 #span-sobre-txt {
     color: white;
     position: absolute;
-    left: 41%;
-}
-
-#span-sobre-txt {
-    color: white;
-    position: absolute;
-    left: 41%;
+    left: 6%;
     top: 36.4%;
     font-size: 18px;
     line-height: 25px;
