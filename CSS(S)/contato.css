@@ -1,5 +1,18 @@
 #div-contato {
+    color: white;
+    /* font-size: 16px; */
 }
 
-#span-g {
+#span-git-barra {
+    position: absolute;
+    left: 95%;
+}
+
+#span-link-barra {
+    
+}
+
+.github {
+    float: right;
+    /* position: absolute; */
 }
