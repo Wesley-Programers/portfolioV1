@@ -1,1 +1,11 @@
-
+#bt-local-conhecimentos {
+    background: rgb(199, 56, 56);
+    text-align: center;
+    padding: 7px;
+    border-radius: 5px;
+    top: 180%;
+    position: absolute;
+    left: 44.6%;
+    color: #ece6e6;
+    border-radius: 4px;
+}
