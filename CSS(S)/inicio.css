@@ -1,25 +1,7 @@
 body {
-    background: rgba(0, 0, 0, 0.9);
-    
+    background: rgba(0, 0, 0, 0.2);
     margin-top: 4%;
     height: 4000px;
-    /* background: rgba(223, 217, 217, 0.3); */
-}
-
-#div-menu-bar-mobile {
-    /* display: none; */
-}
-
-#div-menu-bar-mobile-pos {
-    background: rgba(255, 255, 255, 0.8);
-    top: 130%;
-    position: absolute;
-    height: 93%;
-    width: 100%;
-    color: black;
-    font-size: 23px;
-
-    /* display: none; */
 }
 
 ::-webkit-scrollbar {
@@ -40,10 +22,6 @@ body {
     background: #555;
 }
   
-
-#div-menu-bar-mobile {
-    display: none;
-}
 
 #span-inicio {
     color: white;
@@ -168,31 +146,29 @@ body {
 
 #h1-oi-meu-nome-e {
     color: rgb(226, 220, 220);
-    top: 25.6%;
+    top: 26%;
     position: absolute;
-    left: 13%;
-    font-size: 25px;
+    left: 39.9%;
+    font-size: 27px;
     white-space: nowrap;
 }
 
 #span-meu-nome {
-    /* width: 14ch;
-    white-space: nowrap;
-    overflow: hidden; */
     animation: comecandoTexto 1s steps(14);
     color: rgb(226, 220, 220);
     position: absolute;
     top: 34.3%;
-    left: 13%;
-    font-size: 50px;
+    left: 23.3%;
+    letter-spacing: 9px;
+    font-size: 90px;
 }
 
 #span-front-end-dev {
     color: rgb(226, 220, 220);
     position: absolute;
-    top: 44.8%;
-    left: 13%;
-    font-size: 25px;
+    top: 52%;
+    left: 39%;
+    font-size: 23px;
 }
 
 #span-github {
@@ -204,7 +180,7 @@ body {
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
-    width: 12%;
+    width: 18%;
     border: 2px solid #F64348;
     transition: .6s ease-in-out;
 }
@@ -245,23 +221,29 @@ body {
         white-space: nowrap;
         font-size: 22px;
         left: 9%;
+        top: 30%;
     }
 
     #span-meu-nome {
         white-space: nowrap;
         left: 9%;
         font-size: 44px;
+        
     }
 
     #span-front-end-dev {
         white-space: nowrap;
+        top: 38%;
         left: 9%;
-        font-size: 22px;
+        font-size: 44px;
+        letter-spacing: 6px;
     }
 
     #span-github {
+        white-space: nowrap;
         left: 9%;
-        width: 19%;
+        font-size: 22px;
+        top: 49%;
     }
 
     ::-webkit-scrollbar {
