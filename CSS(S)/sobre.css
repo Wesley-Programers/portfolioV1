@@ -15,7 +15,7 @@
 
 
 #bt-local {
-    background: linear-gradient(to right, rgb(192, 174, 174), rgb(167, 28, 28));
+    background: rgb(199, 56, 56);
     text-align: center;
     padding: 7px;
     border-radius: 5px;
@@ -48,7 +48,7 @@
     left: 6%;
     top: 36.4%;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 35px;
 }
 
 
