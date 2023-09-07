@@ -5,14 +5,27 @@
 
 #span-git-barra {
     position: absolute;
-    left: 95%;
+    left: 98%;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+#span-git-barra:hover {
+    transform: rotate(360deg);
+    color: rgb(202, 43, 43);
 }
 
 #span-link-barra {
-    
+    position: absolute;
+    left: 98%;
+    top: 17%;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
 }
-
-.github {
-    float: right;
-    /* position: absolute; */
+#span-link-barra:hover {
+    transform: rotate(360deg);
+    color: rgb(202, 43, 43);
 }
