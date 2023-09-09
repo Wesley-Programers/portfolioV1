@@ -1,11 +1,61 @@
+#div-html-conhecimentos {
+    color: white;
+    background: rgba(201, 10, 10, 0.2);
+    position: absolute;
+    top: 220.5%;
+    left: 4%;
+    height: 45%;
+    width: 36%;
+}
+
+#div-css-conhecimentos {
+    color: white;
+    background: rgba(201, 10, 10, 0.2);
+    position: absolute;
+    top: 220.5%;
+    left: 59%;
+    height: 45%;
+    width: 36%;
+}
+
+#div-js-conhecimentos {
+    color: white;
+    background: rgba(201, 10, 10, 0.2);
+    position: absolute;
+    top: 287%;
+    left: 4%;
+    height: 45%;
+    width: 36%;
+}
+
+#div-reactjs-conhecimentos {
+    color: white;
+    background: rgba(201, 10, 10, 0.2);
+    position: absolute;
+    top: 287%;
+    left: 59%;
+    height: 45%;
+    width: 36%;
+}
+
+
+
 #bt-local-conhecimentos {
     background: rgb(199, 56, 56);
     text-align: center;
     padding: 7px;
     border-radius: 5px;
-    top: 180%;
+    top: 206.5%;
     position: absolute;
-    left: 44.6%;
+    left: 42.8%;
     color: #ece6e6;
     border-radius: 4px;
+}
+
+#span-html {
+
+}
+
+#span-html-txt {
+
 }
