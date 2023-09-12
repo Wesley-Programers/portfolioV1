@@ -1,16 +1,10 @@
-#div-sobre {
-
-}
-
 #div-sobre-txt {
-    background: rgba(0, 0, 0, 0.2);
     position: absolute;
     height: 59.1%;
     width: 72.4%;
     top: 114%;
     left: 15%;
     border-radius: 10px;
-    /* border: 1px solid red; */
 }
 
 
@@ -47,8 +41,9 @@
     position: absolute;
     left: 6%;
     top: 36.4%;
-    font-size: 18px;
+    font-size: 19px;
     line-height: 35px;
+    text-align: center;
 }
 
 
