@@ -4,7 +4,6 @@ Bem-vindo ao meu primeiro portfólio como Desenvolvedor Front-End! Neste documen
 index.html = arquvivo principal do HTML<br>
 CSS(S)/ = pasta que contém os arquivos .css<br>
 JS(S)/ = pasta que contém os arquivos .js<br>
-IMG(S)/ = pasta que contém imagens<br>
 
 # Sobre o repositorio:
 ## Tecnologias Usadas
