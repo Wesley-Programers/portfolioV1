@@ -53,9 +53,139 @@
 }
 
 #span-html {
-
+    display: block;
+    margin-top: 3%;
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 3.2%;
+}
+#span-html-txt1 {
+    text-align: center;
+    font-size: 21.1px;
+    display: block;
+    margin-bottom: 2.6%;
+}
+#span-html-txt2 {
+    font-size: 19px;
+    text-align: center;
+    display: block;
+    line-height: 36px;
 }
 
-#span-html-txt {
 
+#span-css {
+    display: block;
+    margin-top: 3%;
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 3.2%;
+}
+#span-css-txt1 {
+    text-align: center;
+    font-size: 21.1px;
+    display: block;
+    margin-bottom: 2.6%;
+}
+#span-css-txt2 {
+    font-size: 19px;
+    text-align: center;
+    display: block;
+    line-height: 36px;
+}
+
+
+#span-js {
+    display: block;
+    margin-top: 3%;
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 3.2%;
+}
+#span-js-txt1 {
+    text-align: center;
+    font-size: 21.1px;
+    display: block;
+    margin-bottom: 2.6%;
+}
+#span-js-txt2 {
+    font-size: 19px;
+    text-align: center;
+    display: block;
+    line-height: 36px;
+}
+
+
+#span-reactjs {
+    display: block;
+    margin-top: 3%;
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 3.2%;
+}
+#span-reactjs-txt1 {
+    text-align: center;
+    font-size: 21.1px;
+    display: block;
+    margin-bottom: 2.6%;
+}
+#span-reactjs-txt2 {
+    font-size: 19px;
+    text-align: center;
+    display: block;
+    line-height: 36px;
+}
+
+
+#span-ver-o-resto {
+    opacity: 1;
+    animation: verOResto 4s infinite ease-in-out;
+    position: absolute;
+    top: 220%;
+}
+
+
+@keyframes verOResto {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 0.2;
+    }
+
+    20% {
+        opacity: 0.4;
+    }
+
+    30% {
+        opacity: 0.6;
+    }
+
+    40% {
+        opacity: 0.8;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: 0.8;
+    }
+
+    70% {
+        opacity: 0.6;
+    }
+
+    80% {
+        opacity: 0.4;
+    }
+
+    90% {
+        opacity: 0.2;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
