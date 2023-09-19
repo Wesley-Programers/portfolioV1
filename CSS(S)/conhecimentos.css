@@ -38,7 +38,12 @@
     width: 36%;
 }
 
-
+.animacao-conhecimentosBefore {
+    animation: conhecimentosBefore 2s ease-in-out;
+}
+.animacao-conhecimentosAfter {
+    animation: conhecimentosAfter 2s ease-in-out;
+}
 
 #bt-local-conhecimentos {
     background: rgb(199, 56, 56);
@@ -187,5 +192,25 @@
 
     100% {
         opacity: 0;
+    }
+}
+
+@keyframes conhecimentosBefore {
+    0% {
+        left: 6.5%;
+    }
+    
+    100% {
+        left: -86%;
+    }
+}
+
+@keyframes conhecimentosAfter {
+    0% {
+        left: 100%;
+    }
+
+    100% {
+        left: 6.5%;
     }
 }
