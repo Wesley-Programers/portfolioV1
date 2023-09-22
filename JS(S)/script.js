@@ -1,13 +1,83 @@
 let body = document.getElementById('body');
 
-let menuMobile = document.querySelector('menu-bar-mobile');
-let linkGithubMobile = document.querySelector('span-github-mobile');
-
 let btMenuMobi = document.getElementById('menu-bar-mobile');
 let menuMobile = document.getElementById('div-menu-bar-mobile-pos');
 let fecharMenu = document.querySelector('#span-close');
 
 let bodyPRINC = document.getElementById('div-principal');
+
+let githubTextLink = document.getElementById('span-git-barra');
+let linkedinTextLink = document.getElementById('span-link-barra');
+
+let repositorioLink = document.querySelector('#span-repositorio-link');
+
+let btConhecimenetos = document.getElementById('div-seta1');
+let btConhecimentosBack = document.getElementById('div-seta2');
+let divHtmlConhecimentos = document.getElementById('div-html-conhecimentos');
+let divCssConhecimentos = document.getElementById('div-css-conhecimentos');
+let divJsConhecimentos = document.getElementById('div-js-conhecimentos');
+let divReactJsConhecimentos = document.getElementById('div-reactjs-conhecimentos');
+
+var html = true;
+var css = false;
+var js = false;
+var reactjs = false;
+
+btConhecimenetos.addEventListener('click', function() {
+
+    if(html === true) {
+        divHtmlConhecimentos.classList.add('animacao-conhecimentosBefore');
+        // divHtmlConhecimentos.style.display = 'none';
+
+        html = false
+        css = true
+
+        setTimeout(function() {
+            divHtmlConhecimentos.style.display = 'none';
+            divHtmlConhecimentos.classList.remove('.animacao-conhecimentosBefore');
+        }, 2002);
+
+        divCssConhecimentos.style.display = 'block';
+        divCssConhecimentos.classList.add('animacao-conhecimentosAfter');
+    }else if(css === true) {
+        divCssConhecimentos.classList.remove('animacao-conhecimentosAfter');
+        divHtmlConhecimentos.style.display = 'none';
+
+        css = false;
+        js = true;
+
+        divCssConhecimentos.classList.add('animacao-conhecimentosBefore');
+        
+        setTimeout(function() {
+            divCssConhecimentos.style.display = 'none';
+        }, 2002);
+
+        divJsConhecimentos.style.display = 'block';
+        divJsConhecimentos.classList.add('animacao-conhecimentosAfter');
+    }else if(js === true) {
+        divJsConhecimentos.classList.remove('animacao-conhecimentosAfter');
+
+        js = false;
+        reactjs = true;
+
+        setTimeout(function() {
+            divJsConhecimentos.style.display = 'none';
+        }, 2002);
+
+        divJsConhecimentos.classList.add('animacao-conhecimentosBefore');
+        // divJsConhecimentos.style.display - 'none';
+        divReactJsConhecimentos.style.display = 'block';
+        divReactJsConhecimentos.classList.add('animacao-conhecimentosAfter');
+    };
+
+});
+
+btConhecimentosBack.addEventListener('click', function() {
+
+    divHtmlConhecimentos.classList.add('.animacao-conhecimentosBeforeBack');
+    divCssConhecimentos.classList.add('.animacao-conhecimentosAfterBack');
+
+});
 
 menuMobile.addEventListener('click', function() {
     
