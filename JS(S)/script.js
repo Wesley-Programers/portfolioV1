@@ -74,8 +74,22 @@ btConhecimenetos.addEventListener('click', function() {
 
 btConhecimentosBack.addEventListener('click', function() {
 
-    divHtmlConhecimentos.classList.add('.animacao-conhecimentosBeforeBack');
-    divCssConhecimentos.classList.add('.animacao-conhecimentosAfterBack');
+    if(divCssConhecimentos.classList.contains('animacao-conhecimentosAfter') && divHtmlConhecimentos.classList.contains('animacao-conhecimentosBefore')) {
+        divCssConhecimentos.classList.remove('animacao-conhecimentosAfter');
+        divHtmlConhecimentos.classList.remove('animacao-conhecimentosBefore');
+        divCssConhecimentos.classList.add('animacao-conhecimentosAfterBack');
+        
+        html = true
+        css = false
+        
+        setTimeout(function() {
+            divCssConhecimentos.style.display = 'none';
+        }, 2001);
+
+        divHtmlConhecimentos.classList.add('animacao-conhecimentosBeforeBack');
+        divHtmlConhecimentos.style.display = 'block';
+
+    }
 
 });
 
